@@ -1,0 +1,19 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            // "args":["--cfg_file", "cfgs/waymo/mtr+100_percent_data.yaml", "--ckpt", "../output/waymo/mtr+100_percent_data/my_first_exp/ckpt/best_model.pth", "--extra_tag", "my_pre_exp", "--batch_size", "1"],
+            "args":["--cfg_file", "cfgs/waymo/mtr+100_percent_data.yaml", "--ckpt", "../output/waymo/mtr+100_percent_data/full_waymo_8/ckpt/best_model.pth"],
+            "cwd": "${workspaceFolder}/tools",
+            "justMyCode": true
+        }
+    ]
+}
